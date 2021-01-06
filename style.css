@@ -100,10 +100,11 @@ h2 span{
 .latest-work-area{
     background-color:#E5E5E5;
     padding: 100px;
+    margin: 0 auto;
 }
 .single-project{
     width:30%;
-    margin-right: 3%;
+    margin: 0 19px;
     display: flex;
     float:left;
     background-color: #fff;
