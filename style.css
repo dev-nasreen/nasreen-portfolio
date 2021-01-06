@@ -28,6 +28,9 @@ ul li a{
     text-decoration: none;
     font-weight: 500;
 }
+ul li a:hover{
+    color:#F46060;
+}
 section::after{
     content: "";
     display: table;
@@ -174,4 +177,33 @@ h2 span{
 }
 .social-link a img{
     width: 5%;
+}
+.portfolio-area{
+    text-align: center;
+    margin: 100px auto;
+}
+.portfolio-list {
+    width: 49%;
+    margin: 50px auto;
+    display: block;
+    overflow: hidden;
+}
+.portfolio-list a{
+    padding: 10px 20px;
+    color:#696871;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+.portfolio-list a:hover{
+    color:#F46060;
+}
+.single-item{
+    margin: 15px auto;
+}
+.portfolio-items{
+    display: flex;
+    flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
 }
